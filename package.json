@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jest": "^26.0.0",
+    "mysql": "^2.18.1"
+  },
+  "name": "oceanicproblematic",
+  "description": "Un proyecto para la resolución de una problemática oceánica",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexis96-2/OceanicProblematic.git"
+  },
+  "author": "Alexis96-2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexis96-2/OceanicProblematic/issues"
+  },
+  "homepage": "https://github.com/Alexis96-2/OceanicProblematic#readme"
+}
